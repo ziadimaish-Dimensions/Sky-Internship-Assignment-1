@@ -1,4 +1,5 @@
 <div class="container">
+  <!-- Row for the search bar -->
   <div class="row">
     <div class="col-12">
       <input
@@ -10,9 +11,10 @@
     </div>
   </div>
 
+  <!-- Row for employee cards -->
   <div class="row">
     <div
-      class="col-md-4"
+      class="col-md-4 mb-4"
       *ngFor="let employee of employees | highlight : searchTerm"
     >
       <app-employee-card [employee]="employee"></app-employee-card>
