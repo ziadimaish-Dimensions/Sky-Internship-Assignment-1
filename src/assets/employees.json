@@ -1,0 +1,25 @@
+{
+  "employees": [
+    {
+      "name": "John Doe",
+      "submittedOn": "2/3/2024",
+      "duration": "1 Week (15/11/2023 - 21/4/2024)",
+      "salary": "1500 AED",
+      "image": "https://via.placeholder.com/80"
+    },
+    {
+      "name": "Sarah Johnson",
+      "submittedOn": "12/3/2024",
+      "duration": "1 Week (15/11/2023 - 21/11/2023)",
+      "salary": "1400 AED",
+      "image": "https://via.placeholder.com/80"
+    },
+    {
+      "name": "William Davis",
+      "submittedOn": "13/3/2024",
+      "duration": "3 Weeks (1/12/2023 - 21/12/2023)",
+      "salary": "2100 AED",
+      "image": "https://via.placeholder.com/80"
+    }
+  ]
+}
