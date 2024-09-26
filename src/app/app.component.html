@@ -17,14 +17,7 @@
       class="col-md-4 mb-4"
       *ngFor="let employee of employees | highlight : searchTerm"
     >
-      <!-- Apply the red border to the entire card dynamically -->
-      <div
-        [ngClass]="{
-          'border-red': employee.name
-            .toLowerCase()
-            .includes(searchTerm.toLowerCase())
-        }"
-      >
+      <div>
         <app-employee-card
           [employee]="employee"
           [searchTerm]="searchTerm"
