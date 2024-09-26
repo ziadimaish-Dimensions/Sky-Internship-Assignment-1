@@ -12,7 +12,8 @@ import { HighlightPipe } from './highlight.pipe';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  searchTerm: string = ''; // this holds the search input
+  // this holds the search input
+  searchTerm: string = '';
   //employees data
   employees = [
     {
