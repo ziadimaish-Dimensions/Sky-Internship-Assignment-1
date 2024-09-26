@@ -11,8 +11,10 @@
       />
     </div>
 
-    <!-- Employee Name -->
-    <h5 class="card-title text-center">{{ employee.name }}</h5>
+    <!-- Employee Name with highlighted search term -->
+    <h5 class="card-title text-center">
+      <span [innerHTML]="getHighlightedText(employee.name, searchTerm)"></span>
+    </h5>
 
     <!-- Submitted On -->
     <p class="text-muted mb-0">Submitted on:</p>
